@@ -1,0 +1,1194 @@
+[
+  {
+    "palabra": "Achuar",
+    "significado": "Indigenous people of the Amazon",
+    "ejemplo": "The Achuar people defend their territory.",
+    "region_id": 3,
+    "nombre_archivo": "Achuar.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Aguajal",
+    "significado": "Swampy land / wetland.",
+    "ejemplo": "We walked carefully through the swamp.",
+    "region_id": 3,
+    "nombre_archivo": "Aguajal.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Amasanga",
+    "significado": "Spirit of the forest.",
+    "ejemplo": "Amasanga protects the ancient trees.",
+    "region_id": 3,
+    "nombre_archivo": "Amasanga.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Anent",
+    "significado": "Sacred song or prayer.",
+    "ejemplo": "Grandmother sang an anent for the harvest.",
+    "region_id": 3,
+    "nombre_archivo": "Anent.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Aña",
+    "significado": "Snake or serpent.",
+    "ejemplo": "I saw an aña near the path.",
+    "region_id": 3,
+    "nombre_archivo": "Aña.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Apachita",
+    "significado": "Sacred place on the path.",
+    "ejemplo": "We left a stone on the apachita.",
+    "region_id": 3,
+    "nombre_archivo": "Apachita.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Apamuy",
+    "significado": "To bring something",
+    "ejemplo": "Apamuy the firewood for the fire.",
+    "region_id": 3,
+    "nombre_archivo": "Apamuy.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Arana",
+    "significado": "Tigrillo or small feline",
+    "ejemplo": "The arana hunts at night.",
+    "region_id": 3,
+    "nombre_archivo": "Arana.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Arutam",
+    "significado": "Protective and powerful spirit",
+    "ejemplo": "The warrior sought the vision of Arutam.",
+    "region_id": 3,
+    "nombre_archivo": "Arutam.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Ashanga",
+    "significado": "Large basket woven from lianas",
+    "ejemplo": "Carry the yuca in the ashanga.",
+    "region_id": 3,
+    "nombre_archivo": "Ashanga.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Ayahuasca",
+    "significado": "Sacred plant used in rituals.",
+    "ejemplo": "The shaman prepared the ayahuasca.",
+    "region_id": 3,
+    "nombre_archivo": "Ayahuasca.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Ayampaco",
+    "significado": "Typical dish wrapped in leaves.",
+    "ejemplo": "We ate chicken ayampaco for dinner.",
+    "region_id": 3,
+    "nombre_archivo": "Ayampaco.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Bagre",
+    "significado": "River fish with smooth skin and whiskers.",
+    "ejemplo": "We caught a big bagre for the soup.",
+    "region_id": 3,
+    "nombre_archivo": "Bagre.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Balsa",
+    "significado": "Very light wood used for navigation.",
+    "ejemplo": "They built a balsa to cross the river.",
+    "region_id": 3,
+    "nombre_archivo": "Balsa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Barbasco",
+    "significado": "Plant traditionally used for fishing.",
+    "ejemplo": "They used barbasco in community fishing.",
+    "region_id": 3,
+    "nombre_archivo": "Barbasco.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Bishana",
+    "significado": "Achiote or red facial paint",
+    "ejemplo": "He painted his face with bishana for the party.",
+    "region_id": 3,
+    "nombre_archivo": "Bishana.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Boa",
+    "significado": "Large constrictor snake",
+    "ejemplo": "The boa rested on the branch.",
+    "region_id": 3,
+    "nombre_archivo": "Boa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Bufeo",
+    "significado": "Pink river dolphin",
+    "ejemplo": "The bufeo jumped near the canoe.",
+    "region_id": 3,
+    "nombre_archivo": "Bufeo.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Cacique",
+    "significado": "Community leader",
+    "ejemplo": "The cacique called a meeting.",
+    "region_id": 3,
+    "nombre_archivo": "Cacique.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Canasto",
+    "significado": "Woven basket",
+    "ejemplo": "Fill the canasto with fruits.",
+    "region_id": 3,
+    "nombre_archivo": "Canasto.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Canoero",
+    "significado": "Person who maneuvers the canoe",
+    "ejemplo": "The canoero knows the rapids well.",
+    "region_id": 3,
+    "nombre_archivo": "Canoero.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Casabe",
+    "significado": "Tortilla made from cassava flour",
+    "ejemplo": "Casabe accompanies all meals.",
+    "region_id": 3,
+    "nombre_archivo": "Casabe.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Chambira",
+    "significado": "Palm fiber used for weaving",
+    "ejemplo": "He wove a strong bracelet with chambira.",
+    "region_id": 3,
+    "nombre_archivo": "Chambira.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Charapa",
+    "significado": "Amazonian aquatic turtle",
+    "ejemplo": "We saw a charapa sunbathing on a log.",
+    "region_id": 3,
+    "nombre_archivo": "Charapa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Chay",
+    "significado": "That",
+    "ejemplo": "Pass me that machete.",
+    "region_id": 3,
+    "nombre_archivo": "Chay.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Chicha",
+    "significado": "Fermented drink made from cassava or chonta",
+    "ejemplo": "They offered me a cup of chicha",
+    "region_id": 3,
+    "nombre_archivo": "Chicha.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Chicua",
+    "significado": "Small bird",
+    "ejemplo": "The chicua sang, surely visitors are coming.",
+    "region_id": 3,
+    "nombre_archivo": "Chicua.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Chonta",
+    "significado": "Fruit of the Amazonian palm",
+    "ejemplo": "The chonta is cooked before eating.",
+    "region_id": 3,
+    "nombre_archivo": "Chonta.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Chontacuro",
+    "significado": "Edible worm of the palm",
+    "ejemplo": "The chontacuro maito is a delicacy.",
+    "region_id": 3,
+    "nombre_archivo": "Chontacuro.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Chontaduro",
+    "significado": "Red and starchy fruit of the palm",
+    "ejemplo": "The chontaduro is very energetic.",
+    "region_id": 3,
+    "nombre_archivo": "Chontaduro.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Chullachaqui",
+    "significado": "Forest goblin with a different foot",
+    "ejemplo": "If you get lost, it's the Chullachaqui's fault",
+    "region_id": 3,
+    "nombre_archivo": "Chullachaqui.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Chunta",
+    "significado": "Spear or chonta stick",
+    "ejemplo": "The hunter sharpened his chunta",
+    "region_id": 3,
+    "nombre_archivo": "Chunta.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Chunta runa",
+    "significado": "Strong man",
+    "ejemplo": "That worker is a strong man",
+    "region_id": 3,
+    "nombre_archivo": "Chunta runa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Churuna",
+    "significado": "Clothing / Person with brown skin",
+    "ejemplo": "That man is a very kind churuna",
+    "region_id": 3,
+    "nombre_archivo": "Churuna.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Cocha",
+    "significado": "Small lagoon formed by the river",
+    "ejemplo": "We went fishing at the cocha",
+    "region_id": 3,
+    "nombre_archivo": "Cocha.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Conga",
+    "significado": "Large black ant with a painful sting",
+    "ejemplo": "Be careful, a conga might sting you",
+    "region_id": 3,
+    "nombre_archivo": "Conga.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Copal",
+    "significado": "Aromatic resin used as incense",
+    "ejemplo": "They burned copal to cleanse the house",
+    "region_id": 3,
+    "nombre_archivo": "Copal.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Cuchucho",
+    "significado": "Coatí (long-nosed animal related to raccoons)",
+    "ejemplo": "The cuchucho stole food from the table.",
+    "region_id": 3,
+    "nombre_archivo": "Cuchucho.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Cumpa",
+    "significado": "Buddy or friend (Compadre).",
+    "ejemplo": "Hello cumpa, how's the fishing going?",
+    "region_id": 3,
+    "nombre_archivo": "Cumpa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Curaka",
+    "significado": "Healer or chief in some ethnic groups",
+    "ejemplo": "The curaka gave his advice to the tribe",
+    "region_id": 3,
+    "nombre_archivo": "Curaka.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Curare",
+    "significado": "Plant-based poison for arrows",
+    "ejemplo": "He put curare on the blowgun darts",
+    "region_id": 3,
+    "nombre_archivo": "Curare.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Curi",
+    "significado": "Gold",
+    "ejemplo": "They searched for curi in the Napo River",
+    "region_id": 3,
+    "nombre_archivo": "Curi.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Cushma",
+    "significado": "TTunic or traditional clothing",
+    "ejemplo": "For the ceremony, they wore their clean cushma",
+    "region_id": 3,
+    "nombre_archivo": "Cushma.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Danta",
+    "significado": "Tapir (large mammal)",
+    "ejemplo": "The tapir left footprints in the mud",
+    "region_id": 3,
+    "nombre_archivo": "Danta.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Etsa",
+    "significado": "The Sun (in Shuar mythology)",
+    "ejemplo": "Etsa gives us light every day",
+    "region_id": 3,
+    "nombre_archivo": "Etsa.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Guanchaca",
+    "significado": "Opossum or cunning person",
+    "ejemplo": "That guanchaca ate the chickens",
+    "region_id": 3,
+    "nombre_archivo": "Guanchaca.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Guanta",
+    "significado": "Large rodent of the jungle (paca)",
+    "ejemplo": "Guanta meat is highly valued",
+    "region_id": 3,
+    "nombre_archivo": "Guanta.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Guatusa",
+    "significado": "Agouti rodent of the jungle",
+    "ejemplo": "A guatusa ran across the trail",
+    "region_id": 3,
+    "nombre_archivo": "Guatusa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Guaype",
+    "significado": "Hammock or fiber cloth",
+    "ejemplo": "I rested in the guaype all afternoon",
+    "region_id": 3,
+    "nombre_archivo": "Guaype.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Guayusa",
+    "significado": "Plant for energy infusion",
+    "ejemplo": "We drank guayusa at 4 in the morning",
+    "region_id": 3,
+    "nombre_archivo": "Guayusa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Huangana",
+    "significado": "Wild pig or peccary",
+    "ejemplo": "A herd of huangana passed by here",
+    "region_id": 3,
+    "nombre_archivo": "Huangana.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Inti",
+    "significado": "Sun (Kichwa)",
+    "ejemplo": "The Inti shines strongly at noon",
+    "region_id": 3,
+    "nombre_archivo": "Inti.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Ishpingo",
+    "significado": "Amazonian cinnamon flower",
+    "ejemplo": "The drink tastes better with ishpingo",
+    "region_id": 3,
+    "nombre_archivo": "Ishpingo.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Iwia",
+    "significado": "Demon or cannibal giant (Shuar)",
+    "ejemplo": "The story of Iwia scares children",
+    "region_id": 3,
+    "nombre_archivo": "Iwia.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Jebe",
+    "significado": "Natural rubber",
+    "ejemplo": "They extracted jebe from the tree to sell",
+    "region_id": 3,
+    "nombre_archivo": "Jebe.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Karu",
+    "significado": "Far",
+    "ejemplo": "The town is karu from here",
+    "region_id": 3,
+    "nombre_archivo": "Karu.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Kawsay",
+    "significado": "Life",
+    "ejemplo": "The jungle is pure kawsay",
+    "region_id": 3,
+    "nombre_archivo": "Kawsay.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Kikinka",
+    "significado": "You (emphatic pronoun)",
+    "ejemplo": "Kikinka must come tomorrow.",
+    "region_id": 3,
+    "nombre_archivo": "Kikinka.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Killa",
+    "significado": "Moon",
+    "ejemplo": "The killa lights up the river tonight",
+    "region_id": 3,
+    "nombre_archivo": "Killa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Killka",
+    "significado": "To write or letter",
+    "ejemplo": "The child learns to killka at school",
+    "region_id": 3,
+    "nombre_archivo": "Killka.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Kuri sacha",
+    "significado": "Golden jungle (mythical place)",
+    "ejemplo": "Kuri sacha is a sacred place",
+    "region_id": 3,
+    "nombre_archivo": "Kuri sacha.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Kuri yaku",
+    "significado": "Golden water",
+    "ejemplo": "The river looked like kuri yaku at sunset",
+    "region_id": 3,
+    "nombre_archivo": "Kuri yaku.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Llacta",
+    "significado": "Town or homeland",
+    "ejemplo": "I returned to my llacta after years",
+    "region_id": 3,
+    "nombre_archivo": "Llacta.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Llaki",
+    "significado": "Sadness or sorrow",
+    "ejemplo": "I feel llaki because you are leaving",
+    "region_id": 3,
+    "nombre_archivo": "Llaki.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Llakta runa",
+    "significado": "People of the town",
+    "ejemplo": "The llakta runa gathered in the plaza",
+    "region_id": 3,
+    "nombre_archivo": "Llakta runa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Llullu",
+    "significado": "Tender, green or unripe",
+    "ejemplo": "The banana is still llullu",
+    "region_id": 3,
+    "nombre_archivo": "Llullu.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Lora",
+    "significado": "Amazonian bird (parrot)",
+    "ejemplo": "The lora repeats everything you say",
+    "region_id": 3,
+    "nombre_archivo": "Lora.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Maito",
+    "significado": "Fish food wrapped in bijao leaf",
+    "ejemplo": "Maito is the most delicious dish here",
+    "region_id": 3,
+    "nombre_archivo": "Maito.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Mama",
+    "significado": "Mother or lady",
+    "ejemplo": "Mama Juana cooks very well",
+    "region_id": 3,
+    "nombre_archivo": "Mama.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Masato",
+    "significado": "Fermented yuca drink (similar to chicha)",
+    "ejemplo": "The masato is already strong enough to drink",
+    "region_id": 3,
+    "nombre_archivo": "Masato.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Mashi",
+    "significado": "Friend",
+    "ejemplo": "Hello mashi, let's play",
+    "region_id": 3,
+    "nombre_archivo": "Mashi.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Minga",
+    "significado": "Community work",
+    "ejemplo": "Tomorrow there is minga to clean the road",
+    "region_id": 3,
+    "nombre_archivo": "Minga.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Mishki",
+    "significado": "Sweet or tasty",
+    "ejemplo": "This fruit is very mishki",
+    "region_id": 3,
+    "nombre_archivo": "Mishki.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Mitayo",
+    "significado": "Game meat",
+    "ejemplo": "The hunter brought mitayo for the party",
+    "region_id": 3,
+    "nombre_archivo": "Mitayo.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Morete",
+    "significado": "Swamp palm fruit",
+    "ejemplo": "We made morete juice",
+    "region_id": 3,
+    "nombre_archivo": "Morete.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Mukawa",
+    "significado": "Painted ceramic bowl",
+    "ejemplo": "Serve the chicha in the special mukawa",
+    "region_id": 3,
+    "nombre_archivo": "Mukawa.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Nachi",
+    "significado": "Animal blood prepared as food",
+    "ejemplo": "They prepare nachi when they hunt",
+    "region_id": 3,
+    "nombre_archivo": "Nachi.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Nambi",
+    "significado": "Path",
+    "ejemplo": "The nambi is full of mud",
+    "region_id": 3,
+    "nombre_archivo": "Nambi.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Nanki",
+    "significado": "Spear (Shuar)",
+    "ejemplo": "The warrior cleaned his nanki",
+    "region_id": 3,
+    "nombre_archivo": "Nanki.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Nawi",
+    "significado": "Eye or face",
+    "ejemplo": "The jaguar has bright nawi",
+    "region_id": 3,
+    "nombre_archivo": "Nawi.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Nawi sacha",
+    "significado": "Eye of the jungle (plant/place)",
+    "ejemplo": "They found a flower called nawi sacha",
+    "region_id": 3,
+    "nombre_archivo": "Nawi sacha.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Nucanchik runa",
+    "significado": "Our indigenous people",
+    "ejemplo": "Nucanchik runa takes care of the forest",
+    "region_id": 3,
+    "nombre_archivo": "Nucanchik runa.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Nuka",
+    "significado": "I (pronoun)",
+    "ejemplo": "Nuka lives in Puyo",
+    "region_id": 3,
+    "nombre_archivo": "Nuka.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Nukanchik",
+    "significado": "We",
+    "ejemplo": "Nukanchik are going to the party",
+    "region_id": 3,
+    "nombre_archivo": "Nukanchik.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Nunkui",
+    "significado": "Goddess of the earth and the garden",
+    "ejemplo": "We ask Nunkui for a good harvest",
+    "region_id": 3,
+    "nombre_archivo": "Nunkui.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Otorongo",
+    "significado": "Jaguar",
+    "ejemplo": "The otorongo is the king of the jungle",
+    "region_id": 3,
+    "nombre_archivo": "Otorongo.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Pacha",
+    "significado": "Earth, world, or time",
+    "ejemplo": "We must take care of Pacha Mama",
+    "region_id": 3,
+    "nombre_archivo": "Pacha.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Paiche",
+    "significado": "Giant fish of the Amazon (Arapaima)",
+    "ejemplo": "The paiche can measure three meters",
+    "region_id": 3,
+    "nombre_archivo": "Paiche.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Paja toquilla",
+    "significado": "Fiber used to weave hats and roofs",
+    "ejemplo": "The roof of the cabin is made of paja toquilla",
+    "region_id": 3,
+    "nombre_archivo": "Paja toquilla.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Palizada",
+    "significado": "Logs and branches dragged by the river",
+    "ejemplo": "Be careful with the palizada when navigating",
+    "region_id": 3,
+    "nombre_archivo": "Palizada.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Pamba",
+    "significado": "Field, flat land, or ground",
+    "ejemplo": "Children play in the pamba",
+    "region_id": 3,
+    "nombre_archivo": "Pamba.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Pampa",
+    "significado": "Plain or open place",
+    "ejemplo": "The cattle are in the pampa",
+    "region_id": 3,
+    "nombre_archivo": "Pampa.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Payka",
+    "significado": "He or she (pronoun)",
+    "ejemplo": "Payka knows the way",
+    "region_id": 3,
+    "nombre_archivo": "Payka.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Peque-peque",
+    "significado": "Long-axis canoe motor",
+    "ejemplo": "I hear the sound of the peque-peque",
+    "region_id": 3,
+    "nombre_archivo": "Peque-peque.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Pilche",
+    "significado": "Natural container for drinking",
+    "ejemplo": "Give me a pilche of water",
+    "region_id": 3,
+    "nombre_archivo": "Pilche.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Piraña",
+    "significado": "Carnivorous river fish",
+    "ejemplo": "Don't swim there, there are piranhas",
+    "region_id": 3,
+    "nombre_archivo": "Piraña.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Pitón",
+    "significado": "Large yellow fruit (Grotella)",
+    "ejemplo": "I found a ripe pitón on the ground",
+    "region_id": 3,
+    "nombre_archivo": "Pitón.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Playada",
+    "significado": "River beach that appears in the dry season",
+    "ejemplo": "We made a campfire on the playada",
+    "region_id": 3,
+    "nombre_archivo": "Playada.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Pucuna",
+    "significado": "Blowgun for hunting",
+    "ejemplo": "The hunter aims with his pucuna",
+    "region_id": 3,
+    "nombre_archivo": "Pucuna.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Puka",
+    "significado": "Red",
+    "ejemplo": "He painted his face red",
+    "region_id": 3,
+    "nombre_archivo": "Puka.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Purina",
+    "significado": "Walk or journey",
+    "ejemplo": "We took a long purina through the jungle",
+    "region_id": 3,
+    "nombre_archivo": "Purina.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Ruku",
+    "significado": "Old man or elder",
+    "ejemplo": "The ruku knows many stories",
+    "region_id": 3,
+    "nombre_archivo": "Ruku.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Rumi",
+    "significado": "Stone",
+    "ejemplo": "He sat on a large rumi",
+    "region_id": 3,
+    "nombre_archivo": "Rumi.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Runapuma",
+    "significado": "Man-tiger (transformed sorcerer)",
+    "ejemplo": "They fear the runapuma at night",
+    "region_id": 3,
+    "nombre_archivo": "Runapuma.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Runashimi",
+    "significado": "Language of the people (Kichwa)",
+    "ejemplo": "Here everyone speaks runashimi",
+    "region_id": 3,
+    "nombre_archivo": "Runashimi.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Sacha",
+    "significado": "Jungle or forest",
+    "ejemplo": "I'm going into the sacha",
+    "region_id": 3,
+    "nombre_archivo": "Sacha.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Sacha runa",
+    "significado": "Man of the jungle / Spirit",
+    "ejemplo": "The sacha runa lives away from the city",
+    "region_id": 3,
+    "nombre_archivo": "Sacha runa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Sacha warmi",
+    "significado": "Woman of the jungle / Female spirit",
+    "ejemplo": "The sacha warmi knows the plants",
+    "region_id": 3,
+    "nombre_archivo": "Sacha warmi.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Sacha wasi",
+    "significado": "Jungle house (cabin)",
+    "ejemplo": "We slept in an ecological sacha wasi",
+    "region_id": 3,
+    "nombre_archivo": "Sacha wasi.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Sachamama",
+    "significado": "Mother spirit of the forest (earth boa)",
+    "ejemplo": "The Sachamama takes care of the vegetation",
+    "region_id": 3,
+    "nombre_archivo": "Sachamama.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Sahino",
+    "significado": "Small wild pig",
+    "ejemplo": "They hunted a sahino for dinner",
+    "region_id": 3,
+    "nombre_archivo": "Sahino.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Samai",
+    "significado": "Breath, spirit, or energy",
+    "ejemplo": "The shaman blew his samai over the sick person",
+    "region_id": 3,
+    "nombre_archivo": "Samai.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Sangre de Drago",
+    "significado": "Medicinal red latex from a tree",
+    "ejemplo": "Put sangre de drago on the wound",
+    "region_id": 3,
+    "nombre_archivo": "Sangre de Drago.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Shakapa",
+    "significado": "Shaman's leaf rattle",
+    "ejemplo": "The sound of the shakapa cleanses the energy",
+    "region_id": 3,
+    "nombre_archivo": "Shakapa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Shigra",
+    "significado": "Woven fiber bag",
+    "ejemplo": "Put the groceries in the shigra",
+    "region_id": 3,
+    "nombre_archivo": "Shigra.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Shunku",
+    "significado": "Heart",
+    "ejemplo": "I speak to you with my shunku",
+    "region_id": 3,
+    "nombre_archivo": "Shunku.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Shunku sacha",
+    "significado": "Heart of the jungle",
+    "ejemplo": "We went into the shunku sacha",
+    "region_id": 3,
+    "nombre_archivo": "Shunku sacha.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Sisa",
+    "significado": "Flower",
+    "ejemplo": "That sisa smells very good",
+    "region_id": 3,
+    "nombre_archivo": "Sisa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Supai",
+    "significado": "Devil or evil spirit",
+    "ejemplo": "They say the supai lives in that cave",
+    "region_id": 3,
+    "nombre_archivo": "Supai.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Surí",
+    "significado": "Palm worm (variant of chontacuro)",
+    "ejemplo": "We ate roasted surí",
+    "region_id": 3,
+    "nombre_archivo": "Surí.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Taita",
+    "significado": "Father or lord",
+    "ejemplo": "Taita Marcos is the healer",
+    "region_id": 3,
+    "nombre_archivo": "Taita.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Tambo",
+    "significado": "Refuge or resting place in the jungle",
+    "ejemplo": "We rested at the tambo on the trail",
+    "region_id": 3,
+    "nombre_archivo": "Tambo.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Tamia",
+    "significado": "Rain",
+    "ejemplo": "The heavy tamia is coming",
+    "region_id": 3,
+    "nombre_archivo": "Tamia.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Tapara",
+    "significado": "Dry fruit used as a container",
+    "ejemplo": "Put the water in the tapara",
+    "region_id": 3,
+    "nombre_archivo": "Tapara.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Tapir",
+    "significado": "Large herbivorous mammal (Danta)",
+    "ejemplo": "The tapir is a calm animal",
+    "region_id": 3,
+    "nombre_archivo": "Tapir.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Tarabita",
+    "significado": "Basket hanging from a cable to cross rivers",
+    "ejemplo": "We crossed the Pastaza river in a tarabita",
+    "region_id": 3,
+    "nombre_archivo": "Tarabita.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Tsunki",
+    "significado": "Water spirit (Shuar)",
+    "ejemplo": "Tsunki gives fish to the fishermen",
+    "region_id": 3,
+    "nombre_archivo": "Tsunki.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Tucán",
+    "significado": "Bird with a large and colorful beak",
+    "ejemplo": "The toucan sings in the treetop",
+    "region_id": 3,
+    "nombre_archivo": "Tucán.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Tukuy",
+    "significado": "Everything",
+    "ejemplo": "Tukuy people came to the meeting",
+    "region_id": 3,
+    "nombre_archivo": "Tukuy.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Tukuy shina",
+    "significado": "Anyway / Just like that",
+    "ejemplo": "Anyway, we have to go",
+    "region_id": 3,
+    "nombre_archivo": "Tukuy shina.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Tunchi",
+    "significado": "Whistle of the devil or spirit",
+    "ejemplo": "If you hear the tunchi, don't go out",
+    "region_id": 3,
+    "nombre_archivo": "Tunchi.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Tuntui",
+    "significado": "Trunk drum for long-distance communication",
+    "ejemplo": "They played the tuntui to call for war",
+    "region_id": 3,
+    "nombre_archivo": "Tuntui.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Uchumanka",
+    "significado": "Chili pot (spicy dish)",
+    "ejemplo": "The uchumanka will make you sweat",
+    "region_id": 3,
+    "nombre_archivo": "Uchumanka.mp3",
+    "categoria": "Gastronomy"
+  },
+  {
+    "palabra": "Ungurahua",
+    "significado": "Palm from which oil and juice are made",
+    "ejemplo": "The juice of ungurahua is thick and tasty",
+    "region_id": 3,
+    "nombre_archivo": "Ungurahua.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Untsuri",
+    "significado": "Many or large group (Shuar)",
+    "ejemplo": "Many people came to the meeting",
+    "region_id": 3,
+    "nombre_archivo": "Untsuri.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Uña de Gato",
+    "significado": "Medicinal vine",
+    "ejemplo": "Drink cat's claw tea for pain",
+    "region_id": 3,
+    "nombre_archivo": "Uña de Gato.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Uwi",
+    "significado": "Spirit of abundance and chonta",
+    "ejemplo": "We celebrate the Uwi festival",
+    "region_id": 3,
+    "nombre_archivo": "Uwi.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Varzea",
+    "significado": "Flooded forest",
+    "ejemplo": "There are many fish in the varzea",
+    "region_id": 3,
+    "nombre_archivo": "Varzea.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Warmi",
+    "significado": "Woman or wife",
+    "ejemplo": "The warmi weaves the shigra",
+    "region_id": 3,
+    "nombre_archivo": "Warmi.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Wasi",
+    "significado": "House",
+    "ejemplo": "My wasi is made of wood and straw",
+    "region_id": 3,
+    "nombre_archivo": "Wasi.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Wasi warmi",
+    "significado": "Housewife or woman of the house",
+    "ejemplo": "She is a good wasi warmi",
+    "region_id": 3,
+    "nombre_archivo": "Wasi warmi.mp3",
+    "categoria": "Daily Life"
+  },
+  {
+    "palabra": "Waskina",
+    "significado": "Thin rope or string",
+    "ejemplo": "Tie the package with waskina",
+    "region_id": 3,
+    "nombre_archivo": "Waskina.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Wuituk",
+    "significado": "Black facial paint (Jagua)",
+    "ejemplo": "They painted themselves with wuituk for the ceremony",
+    "region_id": 3,
+    "nombre_archivo": "Wuituk.mp3",
+    "categoria": "General"
+  },
+  {
+    "palabra": "Yachak",
+    "significado": "Wise person or healer (shaman)",
+    "ejemplo": "We went to the yachak for a cleansing",
+    "region_id": 3,
+    "nombre_archivo": "Yachak.mp3",
+    "categoria": "Traditions"
+  },
+  {
+    "palabra": "Yacumama",
+    "significado": "Mother of the water (mythical giant boa)",
+    "ejemplo": "The Yacumama creates the waves of the river",
+    "region_id": 3,
+    "nombre_archivo": "Yacumama.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Yaku",
+    "significado": "Water",
+    "ejemplo": "The water of the river is clean",
+    "region_id": 3,
+    "nombre_archivo": "Yaku.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Yura",
+    "significado": "Tree or plant",
+    "ejemplo": "That yura is very old",
+    "region_id": 3,
+    "nombre_archivo": "Yura.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Yura killa",
+    "significado": "Moon tree (poetic name)",
+    "ejemplo": "The yura killa blooms at night",
+    "region_id": 3,
+    "nombre_archivo": "Yura killa.mp3",
+    "categoria": "Nature"
+  },
+  {
+    "palabra": "Yuturi",
+    "significado": "Kichwa name for the giant conga ant",
+    "ejemplo": "Don't step there, it's full of yuturi",
+    "region_id": 3,
+    "nombre_archivo": "Yuturi.mp3",
+    "categoria": "General"
+  }
+]

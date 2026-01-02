@@ -1,17 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const wordController = require('../controllers/wordController');
+const { verifyToken, verifyAdmin } = require('../middleware/authMiddleware');
 
-// Ruta para obtener todas las palabras
+// Ruta pública para obtener todas las palabras
 router.get('/', wordController.getAllWords);
 
-// Ruta para crear una nueva palabra
-router.post('/', wordController.createWord);
-
-// Ruta para actualizar una palabra
-router.put('/:id', wordController.updateWord);
-
-// Ruta para eliminar una palabra
-router.delete('/:id', wordController.deleteWord);
+// Rutas protegidas SOLO para administradores
+router.post('/', verifyAdmin, wordController.createWord);
+router.put('/:id', verifyAdmin, wordController.updateWord);
+router.delete('/:id', verifyAdmin, wordController.deleteWord);
 
 module.exports = router;

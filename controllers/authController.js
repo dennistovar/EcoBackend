@@ -69,52 +69,34 @@ exports.login = async (req, res) => {
       return res.status(400).json({ message: 'Username/Email and password are required' });
     }
 
-    let user;
-    let userRole;
+    // ========================================
+    // BUSCAR USUARIO EN LA TABLA USUARIOS
+    // ========================================
+    console.log('Searching user:', loginIdentifier);
+    
+    const result = await db.query(
+      'SELECT * FROM usuarios WHERE email = $1 OR nombre_usuario = $1',
+      [loginIdentifier]
+    );
+
+    if (result.rows.length === 0) {
+      console.log('User not found:', loginIdentifier);
+      return res.status(401).json({ message: 'Invalid credentials' });
+    }
+
+    const user = result.rows[0];
+    console.log('User found:', user.nombre_usuario, '- es_admin:', user.es_admin, '- role:', user.role);
 
     // ========================================
-    // CASO 1: LOGIN DE ADMINISTRADOR
+    // VERIFICAR SI ESTÁ INTENTANDO LOGIN COMO ADMIN
     // ========================================
-    if (esAdmin === true) {
-      console.log('Attempting ADMIN login for:', loginIdentifier);
-      
-      const result = await db.query(
-        'SELECT * FROM administradores WHERE nombre_usuario = $1 OR email = $1',
-        [loginIdentifier]
-      );
-
-      if (result.rows.length === 0) {
-        console.log('Admin not found:', loginIdentifier);
-        return res.status(401).json({ message: 'Invalid admin credentials' });
-      }
-
-      user = result.rows[0];
-      userRole = 'admin';
-      console.log('✅ Admin found:', user.nombre_usuario);
-
-    // ========================================
-    // CASO 2: LOGIN DE USUARIO NORMAL
-    // ========================================
-    } else {
-      console.log('Attempting USER login for:', loginIdentifier);
-      
-      const result = await db.query(
-        'SELECT * FROM usuarios WHERE email = $1 OR nombre_usuario = $1',
-        [loginIdentifier]
-      );
-
-      if (result.rows.length === 0) {
-        console.log('User not found:', loginIdentifier);
-        return res.status(401).json({ message: 'Invalid credentials' });
-      }
-
-      user = result.rows[0];
-      userRole = 'user';
-      console.log('User found:', user.nombre_usuario);
+    if (esAdmin === true && !user.es_admin) {
+      console.log('User is not an admin:', user.nombre_usuario);
+      return res.status(403).json({ message: 'Access denied. Admin privileges required.' });
     }
 
     // ========================================
-    // VERIFICAR CONTRASEÑA (AMBOS CASOS)
+    // VERIFICAR CONTRASEÑA
     // ========================================
     const isPasswordValid = await bcrypt.compare(clave, user.clave_hash);
     console.log('Password valid:', isPasswordValid);
@@ -125,19 +107,26 @@ exports.login = async (req, res) => {
     }
 
     // ========================================
+    // DETERMINAR EL ROL DEL USUARIO
+    // ========================================
+    const userRole = user.es_admin ? 'admin' : (user.role || 'user');
+    const isAdmin = user.es_admin === true;
+
+    // ========================================
     // GENERAR TOKEN JWT
     // ========================================
     const token = jwt.sign(
       { 
         id: user.id, 
         email: user.email, 
-        role: userRole 
+        role: userRole,
+        esAdmin: isAdmin
       },
       process.env.JWT_SECRET,
       { expiresIn: '24h' }
     );
 
-    console.log('Login successful for:', user.nombre_usuario, '- Role:', userRole);
+    console.log('✅ Login successful for:', user.nombre_usuario, '- Role:', userRole, '- Admin:', isAdmin);
 
     // ========================================
     // RESPUESTA EXITOSA
@@ -149,7 +138,7 @@ exports.login = async (req, res) => {
         id: user.id,
         nombre_usuario: user.nombre_usuario,
         email: user.email,
-        esAdmin: userRole === 'admin',
+        esAdmin: isAdmin,
         role: userRole
       }
     });

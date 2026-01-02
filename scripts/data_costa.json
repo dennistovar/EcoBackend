@@ -1,0 +1,1266 @@
+[
+  {
+    "palabra": "Abombar",
+    "significado": "To annoy, tire out, or overwhelm",
+    "ejemplo": "Shut up, you already have me abombao with so much noise.",
+    "region_id": 1,
+    "nombre_archivo": "Abombar.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Abollar",
+    "significado": "To mistreat, beat, or hit",
+    "ejemplo": "Just relax with me, I'm not going to abollar you.",
+    "region_id": 1,
+    "nombre_archivo": "Abollar.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Aceitar",
+    "significado": "To bribe or give money to speed something up",
+    "ejemplo": "We have to aceitar the guard so he lets us in.",
+    "region_id": 1,
+    "nombre_archivo": "Aceitar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Achacar",
+    "significado": "To blame someone",
+    "ejemplo": "Don't achaque me, I didn't do it.",
+    "region_id": 1,
+    "nombre_archivo": "Achacar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Achacoso",
+    "significado": "Sickly person or someone who always complains",
+    "ejemplo": "My uncle is achacoso with that flu.",
+    "region_id": 1,
+    "nombre_archivo": "Achacoso.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Acolitar",
+    "significado": "To help or accompany",
+    "ejemplo": "Acolita with a coin for the bus.",
+    "region_id": 1,
+    "nombre_archivo": "Acolitar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Aculao",
+    "significado": "Scared or intimidated",
+    "ejemplo": "He stood aculao when he saw the dog.",
+    "region_id": 1,
+    "nombre_archivo": "Aculao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Agachadito",
+    "significado": "Street food stall",
+    "ejemplo": "Let's go eat at the agachadito on the corner.",
+    "region_id": 1,
+    "nombre_archivo": "Agachadito.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Aguaje",
+    "significado": "Boasting or high tide",
+    "ejemplo": "That guy is purely aguaje.",
+    "region_id": 1,
+    "nombre_archivo": "Aguaje.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Agüevao",
+    "significado": "Scared or dumb",
+    "ejemplo": "Don't be agüevao and jump into the water.",
+    "region_id": 1,
+    "nombre_archivo": "Aguevao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Alfombra",
+    "significado": "Person dominated by their partner",
+    "ejemplo": "The alfombra doesn't go out since he got married.",
+    "region_id": 1,
+    "nombre_archivo": "Alfombra.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Amorfino",
+    "significado": "Popular verse of love and humor",
+    "ejemplo": "Grandpa recited an amorfino.",
+    "region_id": 1,
+    "nombre_archivo": "Amorfino.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Anoa",
+    "significado": "Canoe",
+    "ejemplo": "Get in the anoa to cross the river.",
+    "region_id": 1,
+    "nombre_archivo": "Anoa.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Arrecho",
+    "significado": "Brave or determined",
+    "ejemplo": "That guy is arrecho for work.",
+    "region_id": 1,
+    "nombre_archivo": "Arrecho.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bagre",
+    "significado": "Ugly person",
+    "ejemplo": "That guy is dating a bagre.",
+    "region_id": 1,
+    "nombre_archivo": "Bagre.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Bajón",
+    "significado": "Hunger after drinking",
+    "ejemplo": "Let's go for an encebollado for the bajón.",
+    "region_id": 1,
+    "nombre_archivo": "Bajón.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Baladrón",
+    "significado": "Abusive or show-off",
+    "ejemplo": "He is a baladrón who only shouts.",
+    "region_id": 1,
+    "nombre_archivo": "Baladron.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Balambú",
+    "significado": "Physically weak",
+    "ejemplo": "He turned out to be balambú to carry that.",
+    "region_id": 1,
+    "nombre_archivo": "Balambu.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Baliza",
+    "significado": "Strong confrontation or fight",
+    "ejemplo": "A baliza started in the neighborhood.",
+    "region_id": 1,
+    "nombre_archivo": "Baliza.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Balsoso",
+    "significado": "Lightweight",
+    "ejemplo": "The package was balsoso.",
+    "region_id": 1,
+    "nombre_archivo": "Balsoso.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Balurdo",
+    "significado": "Of bad quality",
+    "ejemplo": "That movie was balurda.",
+    "region_id": 1,
+    "nombre_archivo": "Balurdo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bamboya",
+    "significado": "False appearance",
+    "ejemplo": "That body is pure bamboya.",
+    "region_id": 1,
+    "nombre_archivo": "Bamboya.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bambudo",
+    "significado": "Very fat",
+    "ejemplo": "You are already bambudo.",
+    "region_id": 1,
+    "nombre_archivo": "Bambudo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Banderearse",
+    "significado": "To show off",
+    "ejemplo": "He was bandereándose with his girlfriend.",
+    "region_id": 1,
+    "nombre_archivo": "Bamderearse.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Barajar",
+    "significado": "To leave or scram",
+    "ejemplo": "I barajo before the police arrive.",
+    "region_id": 1,
+    "nombre_archivo": "Barajar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bartolo",
+    "significado": "Dumb or careless",
+    "ejemplo": "Don't be bartolo.",
+    "region_id": 1,
+    "nombre_archivo": "Bartolo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Batracio",
+    "significado": "Vulgar person",
+    "ejemplo": "He looks so batracio.",
+    "region_id": 1,
+    "nombre_archivo": "Batracio.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Berrinchoso",
+    "significado": "Tantrum-thrower",
+    "ejemplo": "The child became berrinchoso.",
+    "region_id": 1,
+    "nombre_archivo": "Berrichoso.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Biela",
+    "significado": "Beer",
+    "ejemplo": "Pass me a biela.",
+    "region_id": 1,
+    "nombre_archivo": "Biela.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Billeteao",
+    "significado": "With a lot of money",
+    "ejemplo": "The neighbor is billeteao.",
+    "region_id": 1,
+    "nombre_archivo": "Billeteao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bochinche",
+    "significado": "Gossip or fight",
+    "ejemplo": "The bochinche started.",
+    "region_id": 1,
+    "nombre_archivo": "Bochinche.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Bochinchero",
+    "significado": "Gossipy person",
+    "ejemplo": "That neighbor is bochinchera.",
+    "region_id": 1,
+    "nombre_archivo": "Bochinchero.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Bolón",
+    "significado": "Plantain ball",
+    "ejemplo": "The bolón cannot be missing.",
+    "region_id": 1,
+    "nombre_archivo": "Bolon.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Bolsón",
+    "significado": "Clumsy",
+    "ejemplo": "What a bolsón you are.",
+    "region_id": 1,
+    "nombre_archivo": "Bolson.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bomba",
+    "significado": "Drunkenness",
+    "ejemplo": "We had a bomba.",
+    "region_id": 1,
+    "nombre_archivo": "Bomba.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Bongo",
+    "significado": "Large canoe",
+    "ejemplo": "They loaded the plantain in the bongo.",
+    "region_id": 1,
+    "nombre_archivo": "Bongo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bonguero",
+    "significado": "Person who drives the bongo",
+    "ejemplo": "The bonguero knows the river.",
+    "region_id": 1,
+    "nombre_archivo": "Bonguero.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Boquear",
+    "significado": "To agonize",
+    "ejemplo": "The fish was boqueando.",
+    "region_id": 1,
+    "nombre_archivo": "Boquear.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Boquiflojo",
+    "significado": "Snitch or loose-lipped",
+    "ejemplo": "Don't tell anything to that boquiflojo.",
+    "region_id": 1,
+    "nombre_archivo": "Boquiflojo.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Boquisucio",
+    "significado": "Foul-mouthed",
+    "ejemplo": "That child is boquisucio.",
+    "region_id": 1,
+    "nombre_archivo": "Boquisucio.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Broder",
+    "significado": "Friend",
+    "ejemplo": "Speak, broder.",
+    "region_id": 1,
+    "nombre_archivo": "Broder.mp3",
+    "categoria": "Greetings"
+  },
+  {
+    "palabra": "Brujo",
+    "significado": "Informal vendor",
+    "ejemplo": "Buy from the brujo.",
+    "region_id": 1,
+    "nombre_archivo": "Brujo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Bullerengue",
+    "significado": "Noise or party",
+    "ejemplo": "The bullerengue started.",
+    "region_id": 1,
+    "nombre_archivo": "Bullerengue.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Bunde",
+    "significado": "Party",
+    "ejemplo": "They went to a bunde.",
+    "region_id": 1,
+    "nombre_archivo": "Bunde.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Buscabulla",
+    "significado": "Troublemaker",
+    "ejemplo": "He is a buscabulla.",
+    "region_id": 1,
+    "nombre_archivo": "Buscabulla.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Cabrearse",
+    "significado": "To get angry",
+    "ejemplo": "I already cabreé.",
+    "region_id": 1,
+    "nombre_archivo": "Cabrearse.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Cacao",
+    "significado": "To ask for forgiveness",
+    "ejemplo": "They were already asking for cacao.",
+    "region_id": 1,
+    "nombre_archivo": "Cacao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Caché",
+    "significado": "Elegance",
+    "ejemplo": "One has their caché.",
+    "region_id": 1,
+    "nombre_archivo": "Caché.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cachina",
+    "significado": "Clothes",
+    "ejemplo": "I put on the new cachina.",
+    "region_id": 1,
+    "nombre_archivo": "Cachina.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cachueliar",
+    "significado": "Temporary jobs",
+    "ejemplo": "I am cachueliando.",
+    "region_id": 1,
+    "nombre_archivo": "Cachueliar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Caída",
+    "significado": "Visit",
+    "ejemplo": "I'll pay you a caída later.",
+    "region_id": 1,
+    "nombre_archivo": "Caida.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Calilla",
+    "significado": "Intense person",
+    "ejemplo": "That child is calilla.",
+    "region_id": 1,
+    "nombre_archivo": "Calilla.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Camaronear",
+    "significado": "To fish for shrimp",
+    "ejemplo": "They went to camaronear.",
+    "region_id": 1,
+    "nombre_archivo": "Camaronear.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Camello",
+    "significado": "Work",
+    "ejemplo": "I have full camello.",
+    "region_id": 1,
+    "nombre_archivo": "Camello.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cana",
+    "significado": "Jail or police",
+    "ejemplo": "They took him to the cana.",
+    "region_id": 1,
+    "nombre_archivo": "Cana.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Candela",
+    "significado": "Dangerous",
+    "ejemplo": "That boy is candela.",
+    "region_id": 1,
+    "nombre_archivo": "Candela.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cangrejada",
+    "significado": "Gathering to eat crabs",
+    "ejemplo": "There is a cangrejada on Sunday.",
+    "region_id": 1,
+    "nombre_archivo": "Cangrejada.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Capiro",
+    "significado": "Peasant",
+    "ejemplo": "They treated him like a capiro.",
+    "region_id": 1,
+    "nombre_archivo": "Capiro.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Caramelear",
+    "significado": "To deceive with words",
+    "ejemplo": "Don't caramelear me.",
+    "region_id": 1,
+    "nombre_archivo": "Caramelear.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Carebolsa",
+    "significado": "Insult",
+    "ejemplo": "Move it, carebolsa.",
+    "region_id": 1,
+    "nombre_archivo": "Carebolsa.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Caretuco",
+    "significado": "Shameless",
+    "ejemplo": "That caretuco doesn't pay.",
+    "region_id": 1,
+    "nombre_archivo": "Caretuco.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Cargarse",
+    "significado": "To annoy",
+    "ejemplo": "Don't cargue me.",
+    "region_id": 1,
+    "nombre_archivo": "Cargarse.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cargoso",
+    "significado": "Annoying",
+    "ejemplo": "He is very cargoso.",
+    "region_id": 1,
+    "nombre_archivo": "Cargoso.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cariacontecío",
+    "significado": "Sad",
+    "ejemplo": "He is walking around cariacontecío.",
+    "region_id": 1,
+    "nombre_archivo": "Cariacontecio.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cariamarrao",
+    "significado": "Bad tempered",
+    "ejemplo": "He always walks around cariamarrao.",
+    "region_id": 1,
+    "nombre_archivo": "Cariamarrao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cariserio",
+    "significado": "Serious",
+    "ejemplo": "He got cariserio.",
+    "region_id": 1,
+    "nombre_archivo": "Cariserio.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Casito",
+    "significado": "Almost",
+    "ejemplo": "Casito I fall.",
+    "region_id": 1,
+    "nombre_archivo": "Casito.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chamba",
+    "significado": "Puddle or mud",
+    "ejemplo": "I got dirty in the chamba.",
+    "region_id": 1,
+    "nombre_archivo": "Chamba.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chanchullo",
+    "significado": "Illegal business",
+    "ejemplo": "There is chanchullo here.",
+    "region_id": 1,
+    "nombre_archivo": "Chamchullo.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Chancuco",
+    "significado": "Cheap liquor",
+    "ejemplo": "Let's go for a chancuco.",
+    "region_id": 1,
+    "nombre_archivo": "Chancuco.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Chantar",
+    "significado": "To put",
+    "ejemplo": "I chanté the shirt on him.",
+    "region_id": 1,
+    "nombre_archivo": "Chantar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Charlón",
+    "significado": "Liar",
+    "ejemplo": "They are very charlones.",
+    "region_id": 1,
+    "nombre_archivo": "Charlón.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chaucha",
+    "significado": "Small job",
+    "ejemplo": "I'm going to do some chauchas.",
+    "region_id": 1,
+    "nombre_archivo": "Chaucha.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chendo",
+    "significado": "Joke",
+    "ejemplo": "It's chendo.",
+    "region_id": 1,
+    "nombre_archivo": "Chendo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chévere",
+    "significado": "Nice or excellent",
+    "ejemplo": "Everything was chévere.",
+    "region_id": 1,
+    "nombre_archivo": "Chévere.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chichorias",
+    "significado": "Snacks or treats",
+    "ejemplo": "Let's go for chichorias.",
+    "region_id": 1,
+    "nombre_archivo": "Chichorias.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Chifle",
+    "significado": "Fried plantain",
+    "ejemplo": "Add more chifle.",
+    "region_id": 1,
+    "nombre_archivo": "Chifle.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Chillao",
+    "significado": "Angry",
+    "ejemplo": "He is chillao.",
+    "region_id": 1,
+    "nombre_archivo": "Chillao.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Chin",
+    "significado": "A little",
+    "ejemplo": "Add a chin of salt.",
+    "region_id": 1,
+    "nombre_archivo": "Chin.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chinear",
+    "significado": "To assault",
+    "ejemplo": "They tried to chinear a man.",
+    "region_id": 1,
+    "nombre_archivo": "Chinear.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Chiro",
+    "significado": "Without money",
+    "ejemplo": "I ended up chiro.",
+    "region_id": 1,
+    "nombre_archivo": "Chiro.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chirona",
+    "significado": "Jail",
+    "ejemplo": "They sent him to the chirona.",
+    "region_id": 1,
+    "nombre_archivo": "Chirona.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cholo",
+    "significado": "Coastal mestizo",
+    "ejemplo": "The cholo fisherman.",
+    "region_id": 1,
+    "nombre_archivo": "Cholo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Chorear",
+    "significado": "To rob",
+    "ejemplo": "He wanted to chorear a cellphone.",
+    "region_id": 1,
+    "nombre_archivo": "Chorear.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Choro",
+    "significado": "Thief",
+    "ejemplo": "They captured the choro.",
+    "region_id": 1,
+    "nombre_archivo": "Choro.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Chupe",
+    "significado": "Party",
+    "ejemplo": "The chupe started.",
+    "region_id": 1,
+    "nombre_archivo": "Chupe.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Chuzos",
+    "significado": "Shoes",
+    "ejemplo": "I bought new chuzos.",
+    "region_id": 1,
+    "nombre_archivo": "Chuzos.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cochambroso",
+    "significado": "Dirty",
+    "ejemplo": "The room was cochambroso.",
+    "region_id": 1,
+    "nombre_archivo": "Cochambroso.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cocobol",
+    "significado": "Big-headed",
+    "ejemplo": "The baby was born cocobol.",
+    "region_id": 1,
+    "nombre_archivo": "Cocobol.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Cocopelao",
+    "significado": "Bald",
+    "ejemplo": "I ended up cocopelao.",
+    "region_id": 1,
+    "nombre_archivo": "Cocopelao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Coico",
+    "significado": "Recruit",
+    "ejemplo": "He went as a coico.",
+    "region_id": 1,
+    "nombre_archivo": "Coico.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Colorado",
+    "significado": "Redhead",
+    "ejemplo": "The colorado sells coconut.",
+    "region_id": 1,
+    "nombre_archivo": "Colorado.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Corvi",
+    "significado": "Corviche",
+    "ejemplo": "Give me a corvi.",
+    "region_id": 1,
+    "nombre_archivo": "Corvi.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Crane",
+    "significado": "Head",
+    "ejemplo": "Use the crane.",
+    "region_id": 1,
+    "nombre_archivo": "Crane.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Culebra",
+    "significado": "Debt",
+    "ejemplo": "The culebra is coming.",
+    "region_id": 1,
+    "nombre_archivo": "Culebra.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Curtido",
+    "significado": "Salad",
+    "ejemplo": "Put curtido on it.",
+    "region_id": 1,
+    "nombre_archivo": "Curtido.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Dañao",
+    "significado": "Bad person",
+    "ejemplo": "That guy is dañao.",
+    "region_id": 1,
+    "nombre_archivo": "Dañao.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Dar el vire",
+    "significado": "To kill or die",
+    "ejemplo": "Careful they don't dan el vire to you.",
+    "region_id": 1,
+    "nombre_archivo": "Dar el vire.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Darse",
+    "significado": "To fight",
+    "ejemplo": "Let's go darse.",
+    "region_id": 1,
+    "nombre_archivo": "Darse.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Desabrido",
+    "significado": "Tasteless",
+    "ejemplo": "It is desabrido.",
+    "region_id": 1,
+    "nombre_archivo": "Desabrido.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Desmandar",
+    "significado": "To misbehave",
+    "ejemplo": "I desmandé.",
+    "region_id": 1,
+    "nombre_archivo": "Desmandar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Destrampar",
+    "significado": "To go wild",
+    "ejemplo": "They started to destrampar.",
+    "region_id": 1,
+    "nombre_archivo": "Destrampar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Diablazo",
+    "significado": "Blow or hit",
+    "ejemplo": "I'll give you your diablazo.",
+    "region_id": 1,
+    "nombre_archivo": "Diablazo.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Diablura",
+    "significado": "Mischief",
+    "ejemplo": "They did a diablurada.",
+    "region_id": 1,
+    "nombre_archivo": "Diablura.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Drogo",
+    "significado": "Addict",
+    "ejemplo": "That park has drogos.",
+    "region_id": 1,
+    "nombre_archivo": "Drogo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Echarse",
+    "significado": "To sleep",
+    "ejemplo": "Échese for a while.",
+    "region_id": 1,
+    "nombre_archivo": "Echarse.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Embalao",
+    "significado": "Accelerated",
+    "ejemplo": "You are going embalao.",
+    "region_id": 1,
+    "nombre_archivo": "Embalao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Embarrar",
+    "significado": "To ruin",
+    "ejemplo": "You embarraste it.",
+    "region_id": 1,
+    "nombre_archivo": "Embarrar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Embarcar",
+    "significado": "To deceive",
+    "ejemplo": "They embarcaron me.",
+    "region_id": 1,
+    "nombre_archivo": "Embarcar.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Empanizao",
+    "significado": "Dirty",
+    "ejemplo": "I arrived empanizao.",
+    "region_id": 1,
+    "nombre_archivo": "Empanizao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Emperrao",
+    "significado": "Angry",
+    "ejemplo": "He is emperrao.",
+    "region_id": 1,
+    "nombre_archivo": "Emperrao.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Empipao",
+    "significado": "Full",
+    "ejemplo": "I am empipao.",
+    "region_id": 1,
+    "nombre_archivo": "Empipao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Enbolatao",
+    "significado": "Confused",
+    "ejemplo": "I am enbolatao.",
+    "region_id": 1,
+    "nombre_archivo": "Embolatao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Encachinao",
+    "significado": "Elegant",
+    "ejemplo": "I'm going encachinao.",
+    "region_id": 1,
+    "nombre_archivo": "Encachinao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Encebollado",
+    "significado": "Typical soup",
+    "ejemplo": "The encebollado is great.",
+    "region_id": 1,
+    "nombre_archivo": "Encebollado.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Encanao",
+    "significado": "Preso",
+    "ejemplo": "He is encanao.",
+    "region_id": 1,
+    "nombre_archivo": "Encanao.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Engrupido",
+    "significado": "Creído",
+    "ejemplo": "He is being engrupido.",
+    "region_id": 1,
+    "nombre_archivo": "Engrupido.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Foco",
+    "significado": "Vergüenza",
+    "ejemplo": "What foco.",
+    "region_id": 1,
+    "nombre_archivo": "Foco.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Gambas",
+    "significado": "Legs",
+    "ejemplo": "What good gambas.",
+    "region_id": 1,
+    "nombre_archivo": "Gambas.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Guacharnaco",
+    "significado": "Badly dressed",
+    "ejemplo": "Don't be guacharnaco.",
+    "region_id": 1,
+    "nombre_archivo": "Guacharnaco.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Guatita",
+    "significado": "Typical dish",
+    "ejemplo": "The guatita is delicious.",
+    "region_id": 1,
+    "nombre_archivo": "Guatita.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Guayaco",
+    "significado": "From Guayaquil",
+    "ejemplo": "The guayaco is smart.",
+    "region_id": 1,
+    "nombre_archivo": "Guayaco.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Hueso",
+    "significado": "Boring",
+    "ejemplo": "The party was hueso.",
+    "region_id": 1,
+    "nombre_archivo": "Hueso.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Jama",
+    "significado": "Food",
+    "ejemplo": "Let's go for the jama.",
+    "region_id": 1,
+    "nombre_archivo": "Jama.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Jamear",
+    "significado": "To eat",
+    "ejemplo": "We went to jamear.",
+    "region_id": 1,
+    "nombre_archivo": "Jamear.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Jeva",
+    "significado": "Girlfriend",
+    "ejemplo": "That is his jeva.",
+    "region_id": 1,
+    "nombre_archivo": "Jeva.mp3",
+    "categoria": "Greetings"
+  },
+  {
+    "palabra": "Lámpara",
+    "significado": "Apparent",
+    "ejemplo": "That neighborhood is lámpara.",
+    "region_id": 1,
+    "nombre_archivo": "Lámpara.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Lata",
+    "significado": "Coins",
+    "ejemplo": "Lend me a lata.",
+    "region_id": 1,
+    "nombre_archivo": "Lata.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Lenteja",
+    "significado": "Slow",
+    "ejemplo": "You are lenteja.",
+    "region_id": 1,
+    "nombre_archivo": "Lenteja.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Llanta",
+    "significado": "Body fat",
+    "ejemplo": "I have llanta.",
+    "region_id": 1,
+    "nombre_archivo": "Llanta.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Luca",
+    "significado": "Thousand dollars",
+    "ejemplo": "It cost five lucas.",
+    "region_id": 1,
+    "nombre_archivo": "Luca.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Mijo",
+    "significado": "Affection",
+    "ejemplo": "Come here, mijo.",
+    "region_id": 1,
+    "nombre_archivo": "Mijo.mp3",
+    "categoria": "Greetings"
+  },
+  {
+    "palabra": "Moje",
+    "significado": "Bribe",
+    "ejemplo": "He asked for the moje.",
+    "region_id": 1,
+    "nombre_archivo": "Moje.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Montuvio",
+    "significado": "Coastal peasant",
+    "ejemplo": "The montuvio sings amorfinos.",
+    "region_id": 1,
+    "nombre_archivo": "Montuvio.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Mosca",
+    "significado": "Attentive",
+    "ejemplo": "Get mosca.",
+    "region_id": 1,
+    "nombre_archivo": "Mosca.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Ñengoso",
+    "significado": "Street",
+    "ejemplo": "He dresses ñengoso.",
+    "region_id": 1,
+    "nombre_archivo": "Ñengoso.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Once",
+    "significado": "Afternoon meal",
+    "ejemplo": "Let's go to the once.",
+    "region_id": 1,
+    "nombre_archivo": "Once.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Palanqueo",
+    "significado": "Influence",
+    "ejemplo": "He got in by palanqueo.",
+    "region_id": 1,
+    "nombre_archivo": "Palanqueo.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Papeo",
+    "significado": "Abundant food",
+    "ejemplo": "What good papeo.",
+    "region_id": 1,
+    "nombre_archivo": "Papeo.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Paro",
+    "significado": "Lie",
+    "ejemplo": "Don't give me paro.",
+    "region_id": 1,
+    "nombre_archivo": "Paro.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Pelada",
+    "significado": "Girl",
+    "ejemplo": "That pelada dances well.",
+    "region_id": 1,
+    "nombre_archivo": "Pelada.mp3",
+    "categoria": "Greetings"
+  },
+  {
+    "palabra": "Pelucón",
+    "significado": "Wealthy person",
+    "ejemplo": "He lives like a pelucón.",
+    "region_id": 1,
+    "nombre_archivo": "Pelucon.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Pilas",
+    "significado": "Intelligent",
+    "ejemplo": "That boy is pilas.",
+    "region_id": 1,
+    "nombre_archivo": "Pilas.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Pitear",
+    "significado": "To honk",
+    "ejemplo": "The car started to pitear.",
+    "region_id": 1,
+    "nombre_archivo": "Pitear.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Polla",
+    "significado": "Exam copy",
+    "ejemplo": "He had the polla.",
+    "region_id": 1,
+    "nombre_archivo": "Polla.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Posi",
+    "significado": "Yes",
+    "ejemplo": "Everything posi.",
+    "region_id": 1,
+    "nombre_archivo": "Posi.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Puesto",
+    "significado": "Drogado",
+    "ejemplo": "He is puesto.",
+    "region_id": 1,
+    "nombre_archivo": "Puesto.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Ruquear",
+    "significado": "To sleep",
+    "ejemplo": "I'm going to ruquear.",
+    "region_id": 1,
+    "nombre_archivo": "Ruquear.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Salsero",
+    "significado": "Salsa lover",
+    "ejemplo": "He is very salsero.",
+    "region_id": 1,
+    "nombre_archivo": "Salsero.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Sapada",
+    "significado": "Viveza",
+    "ejemplo": "They pulled a sapada on him.",
+    "region_id": 1,
+    "nombre_archivo": "Sapada.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Sapo",
+    "significado": "Soplón",
+    "ejemplo": "Don't be sapo.",
+    "region_id": 1,
+    "nombre_archivo": "Sapo.mp3",
+    "categoria": "Conflicts"
+  },
+  {
+    "palabra": "Sota",
+    "significado": "Ten dollars",
+    "ejemplo": "Lend me a sota.",
+    "region_id": 1,
+    "nombre_archivo": "Sota.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Tarrinazo",
+    "significado": "Food in tarrina",
+    "ejemplo": "They handed out tarrinazo.",
+    "region_id": 1,
+    "nombre_archivo": "Tarrinazo.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Tigrillo",
+    "significado": "Typical dish",
+    "ejemplo": "We ate tigrillo.",
+    "region_id": 1,
+    "nombre_archivo": "Tigrillo.mp3",
+    "categoria": "Food"
+  },
+  {
+    "palabra": "Tuco",
+    "significado": "Strong",
+    "ejemplo": "He is very tuco.",
+    "region_id": 1,
+    "nombre_archivo": "Tuco.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Vacilar",
+    "significado": "To flirt",
+    "ejemplo": "They went to vacilar.",
+    "region_id": 1,
+    "nombre_archivo": "Vacilar.mp3",
+    "categoria": "Party"
+  },
+  {
+    "palabra": "Varas",
+    "significado": "Dollars",
+    "ejemplo": "Lend me twenty varas.",
+    "region_id": 1,
+    "nombre_archivo": "Varas.mp3",
+    "categoria": "Expressions"
+  },
+  {
+    "palabra": "Viche",
+    "significado": "Manabita soup",
+    "ejemplo": "The viche is delicious.",
+    "region_id": 1,
+    "nombre_archivo": "Viche.mp3",
+    "categoria": "Food"
+  }
+]

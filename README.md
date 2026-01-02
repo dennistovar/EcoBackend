@@ -2,7 +2,7 @@
 
 Backend API para la aplicación EcoLéxico - Diccionario de palabras ecuatorianas por regiones.
 
-## 🚀 Tecnologías
+##  Tecnologías
 
 - **Node.js** - Entorno de ejecución
 - **Express** - Framework web
@@ -10,7 +10,7 @@ Backend API para la aplicación EcoLéxico - Diccionario de palabras ecuatoriana
 - **JWT** - Autenticación
 - **bcryptjs** - Encriptación de contraseñas
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado:
 
@@ -107,7 +107,7 @@ O ejecuta manualmente en PostgreSQL:
 -- La contraseña 'admin123' debe ser hasheada con bcrypt antes de insertarla
 ```
 
-## ▶️ Ejecutar el proyecto
+##  Ejecutar el proyecto
 
 ### Modo desarrollo (con nodemon)
 
@@ -123,7 +123,7 @@ npm start
 
 El servidor se iniciará en `http://localhost:5000`
 
-## 📚 Endpoints de la API
+## Endpoints de la API
 
 ### Autenticación
 
@@ -149,7 +149,7 @@ El servidor se iniciará en `http://localhost:5000`
 | POST | `/api/favorites` | Agregar palabra a favoritos |
 | DELETE | `/api/favorites/:word_id` | Eliminar palabra de favoritos |
 
-## 🔐 Autenticación
+## Autenticación
 
 La API utiliza JWT (JSON Web Tokens) para la autenticación. Para acceder a rutas protegidas, incluye el token en el header:
 
@@ -157,7 +157,7 @@ La API utiliza JWT (JSON Web Tokens) para la autenticación. Para acceder a ruta
 Authorization: Bearer <tu_token_jwt>
 ```
 
-## 📦 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 Backend/
@@ -191,7 +191,7 @@ node createAdmin.js
 node testLogin.js
 ```
 
-## 🛠️ Solución de problemas
+##  Solución de problemas
 
 ### Error de conexión a PostgreSQL
 
@@ -214,10 +214,4 @@ Verifica que:
 - La variable `JWT_SECRET` esté configurada en `.env`
 - El token se envíe en el header `Authorization`
 
-## 👨‍💻 Autor
 
-EcoLéxico - Ecuador 🇪🇨
-
-## 📄 Licencia
-
-ISC
