@@ -70,13 +70,13 @@ const actualizarJSON = async () => {
     const rawData = fs.readFileSync(jsonPath, 'utf8');
     const palabras = JSON.parse(rawData);
     
-    console.log(`📚 Procesando ${palabras.length} palabras del Oriente...\n`);
+    console.log(` Procesando ${palabras.length} palabras del Oriente...\n`);
     
     const palabrasActualizadas = palabras.map((item, index) => {
       const categoria = clasificarPalabra(item.palabra, item.significado);
       
       if ((index + 1) % 20 === 0) {
-        console.log(`✅ Procesadas ${index + 1} palabras...`);
+        console.log(` Procesadas ${index + 1} palabras...`);
       }
       
       return {
@@ -88,8 +88,8 @@ const actualizarJSON = async () => {
     // Guardar el archivo actualizado
     fs.writeFileSync(jsonPath, JSON.stringify(palabrasActualizadas, null, 2), 'utf8');
     
-    console.log(`\n✅ ¡Archivo actualizado exitosamente!`);
-    console.log(`📊 Total de palabras: ${palabrasActualizadas.length}`);
+    console.log(`\n ¡Archivo actualizado exitosamente!`);
+    console.log(` Total de palabras: ${palabrasActualizadas.length}`);
     
     // Mostrar estadísticas de categorías
     const categorias = {};
@@ -97,7 +97,7 @@ const actualizarJSON = async () => {
       categorias[item.categoria] = (categorias[item.categoria] || 0) + 1;
     });
     
-    console.log('\n📋 Distribución por categorías:');
+    console.log('\n Distribución por categorías:');
     Object.entries(categorias)
       .sort((a, b) => b[1] - a[1])
       .forEach(([cat, count]) => {
@@ -105,7 +105,7 @@ const actualizarJSON = async () => {
       });
     
   } catch (error) {
-    console.error('❌ Error:', error.message);
+    console.error(' Error:', error.message);
   }
 };
 

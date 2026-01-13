@@ -9,6 +9,13 @@ exports.register = async (req, res) => {
   const { nombre_usuario, email, clave } = req.body;
 
   try {
+    // Validar campos requeridos
+    if (!nombre_usuario || !email || !clave) {
+      return res.status(400).json({ 
+        message: 'Todos los campos son requeridos (nombre_usuario, email, clave)' 
+      });
+    }
+
     // Verificar si el usuario ya existe
     const userExists = await db.query(
       'SELECT * FROM usuarios WHERE email = $1',
@@ -16,121 +23,122 @@ exports.register = async (req, res) => {
     );
 
     if (userExists.rows.length > 0) {
-      return res.status(409).json({ message: 'User already exists. Please login instead.' });
+      return res.status(409).json({ 
+        message: 'User already exists. Please login instead.' 
+      });
     }
 
     // Encriptar la contraseña
     const saltRounds = 10;
     const hashedPassword = await bcrypt.hash(clave, saltRounds);
 
-    // Insertar nuevo usuario en la base de datos
+    // Insertar nuevo usuario en la base de datos (siempre como 'turista')
     const result = await db.query(
-      'INSERT INTO usuarios (nombre_usuario, email, clave_hash) VALUES ($1, $2, $3) RETURNING id, nombre_usuario, email',
-      [nombre_usuario, email, hashedPassword]
+      'INSERT INTO usuarios (nombre_usuario, email, clave_hash, rol) VALUES ($1, $2, $3, $4) RETURNING id, nombre_usuario, email, rol',
+      [nombre_usuario, email, hashedPassword, 'turista']
     );
 
-    // Generar token JWT
+    const newUser = result.rows[0];
+
+    //  CRÍTICO: Generar token JWT con el ROL incluido en el payload
+    const payload = {
+      id: newUser.id,
+      email: newUser.email,
+      rol: newUser.rol //  CRÍTICO: Incluir el rol
+    };
+
     const token = jwt.sign(
-      { id: result.rows[0].id, email: result.rows[0].email, role: 'user' },
+      payload,
       process.env.JWT_SECRET,
       { expiresIn: '24h' }
     );
+
+    console.log(' Usuario registrado:', {
+      id: newUser.id,
+      email: newUser.email,
+      rol: newUser.rol
+    });
 
     res.status(201).json({
       message: 'User registered successfully',
       token,
       user: {
-        id: result.rows[0].id,
-        nombre_usuario: result.rows[0].nombre_usuario,
-        email: result.rows[0].email,
-        esAdmin: false,
-        role: 'user'
+        id: newUser.id,
+        nombre_usuario: newUser.nombre_usuario,
+        email: newUser.email,
+        rol: newUser.rol
       }
     });
   } catch (err) {
-    console.error('Error en register:', err.message);
+    console.error(' Error en register:', err.message);
     res.status(500).json({ message: 'Server error during registration' });
   }
 };
 
 // ==========================================
-// LOGIN (Usuarios Y Administradores)
+// LOGIN (Usuarios y Administradores)
 // ==========================================
 exports.login = async (req, res) => {
-  console.log('Login request received:', JSON.stringify(req.body, null, 2));
-  
-  const { nombre_usuario, email, clave, esAdmin } = req.body;
+  const { nombre_usuario, email, clave } = req.body;
 
   try {
     // Determinar el identificador (email o nombre_usuario)
     const loginIdentifier = email || nombre_usuario;
     
     if (!loginIdentifier || !clave) {
-      return res.status(400).json({ message: 'Username/Email and password are required' });
+      return res.status(400).json({ 
+        message: 'Username/Email and password are required' 
+      });
     }
 
-    // ========================================
-    // BUSCAR USUARIO EN LA TABLA USUARIOS
-    // ========================================
-    console.log('Searching user:', loginIdentifier);
-    
+    // Buscar usuario en la tabla usuarios
     const result = await db.query(
-      'SELECT * FROM usuarios WHERE email = $1 OR nombre_usuario = $1',
+      'SELECT id, nombre_usuario, email, clave_hash, rol FROM usuarios WHERE email = $1 OR nombre_usuario = $1',
       [loginIdentifier]
     );
 
     if (result.rows.length === 0) {
-      console.log('User not found:', loginIdentifier);
+      console.log(' Login fallido: Usuario no encontrado:', loginIdentifier);
       return res.status(401).json({ message: 'Invalid credentials' });
     }
 
     const user = result.rows[0];
-    console.log('User found:', user.nombre_usuario, '- es_admin:', user.es_admin, '- role:', user.role);
 
-    // ========================================
-    // VERIFICAR SI ESTÁ INTENTANDO LOGIN COMO ADMIN
-    // ========================================
-    if (esAdmin === true && !user.es_admin) {
-      console.log('User is not an admin:', user.nombre_usuario);
-      return res.status(403).json({ message: 'Access denied. Admin privileges required.' });
-    }
-
-    // ========================================
-    // VERIFICAR CONTRASEÑA
-    // ========================================
+    // Verificar contraseña
     const isPasswordValid = await bcrypt.compare(clave, user.clave_hash);
-    console.log('Password valid:', isPasswordValid);
 
     if (!isPasswordValid) {
-      console.log('Invalid password for:', user.nombre_usuario);
+      console.log(' Login fallido: Contraseña incorrecta para:', user.email);
       return res.status(401).json({ message: 'Invalid credentials' });
     }
 
-    // ========================================
-    // DETERMINAR EL ROL DEL USUARIO
-    // ========================================
-    const userRole = user.es_admin ? 'admin' : (user.role || 'user');
-    const isAdmin = user.es_admin === true;
+    //  CRÍTICO: Crear payload del JWT con el ROL
+    const payload = { 
+      id: user.id, 
+      email: user.email, 
+      rol: user.rol //  CRÍTICO: Asegurar que el rol esté en el payload
+    };
 
-    // ========================================
-    // GENERAR TOKEN JWT
-    // ========================================
+    // DEBUG: Mostrar información del usuario desde la BD
+    console.log('═══════════════════════════════════════════');
+    console.log(' LOGIN EXITOSO - Información del Usuario:');
+    console.log('   ID:', user.id);
+    console.log('   Email:', user.email);
+    console.log('   Nombre:', user.nombre_usuario);
+    console.log('   Rol desde BD:', user.rol);
+    console.log('   Payload JWT:', payload);
+    console.log('═══════════════════════════════════════════');
+
+    // Generar token JWT
     const token = jwt.sign(
-      { 
-        id: user.id, 
-        email: user.email, 
-        role: userRole,
-        esAdmin: isAdmin
-      },
+      payload,
       process.env.JWT_SECRET,
       { expiresIn: '24h' }
     );
 
-    console.log('✅ Login successful for:', user.nombre_usuario, '- Role:', userRole, '- Admin:', isAdmin);
+    console.log(' Token JWT generado exitosamente');
 
-    // ========================================
-    // RESPUESTA EXITOSA
-    // ========================================
+    // Respuesta exitosa
     res.json({
       message: 'Login successful',
       token,
@@ -138,13 +146,12 @@ exports.login = async (req, res) => {
         id: user.id,
         nombre_usuario: user.nombre_usuario,
         email: user.email,
-        esAdmin: isAdmin,
-        role: userRole
+        rol: user.rol
       }
     });
 
   } catch (err) {
-    console.error('Error in login:', err.message);
+    console.error(' Error in login:', err.message);
     res.status(500).json({ message: 'Server error during login' });
   }
 };

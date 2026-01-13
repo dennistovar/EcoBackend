@@ -2,6 +2,7 @@ const db = require('../config/db');
 
 exports.getAllWords = async (req, res) => {
   try {
+    console.log(' Solicitando todas las palabras...');
     const { region_id, categoria } = req.query;
     
     let query = 'SELECT * FROM palabras WHERE 1=1';
@@ -24,10 +25,14 @@ exports.getAllWords = async (req, res) => {
     
     query += ' ORDER BY palabra ASC';
     
+    console.log(' Query:', query);
+    console.log(' Params:', params);
+    
     const result = await db.query(query, params);
+    console.log(' Palabras encontradas:', result.rows.length);
     res.json(result.rows);
   } catch (err) {
-    console.error(err.message);
+    console.error(' Error obteniendo palabras:', err.message);
     res.status(500).send('Error en el servidor');
   }
 };
@@ -36,15 +41,20 @@ exports.deleteWord = async (req, res) => {
   const { id } = req.params;
 
   try {
+    console.log(' Intentando eliminar palabra ID:', id);
+    console.log(' Usuario que elimina:', req.user);
+    
     const result = await db.query('DELETE FROM palabras WHERE id = $1', [id]);
     
     if (result.rowCount === 0) {
+      console.log(' Palabra no encontrada');
       return res.status(404).json({ message: 'Palabra no encontrada' });
     }
 
+    console.log(' Palabra eliminada exitosamente');
     res.status(200).json({ message: 'Palabra eliminada exitosamente' });
   } catch (err) {
-    console.error(err.message);
+    console.error(' Error eliminando palabra:', err.message);
     res.status(500).json({ message: 'Error en el servidor' });
   }
 };
@@ -53,6 +63,9 @@ exports.createWord = async (req, res) => {
   const { palabra, significado, ejemplo, audio_url, region_id, provincia_id, categoria } = req.body;
 
   try {
+    console.log(' Creando nueva palabra:', palabra);
+    console.log(' Usuario que crea:', req.user);
+    
     const result = await db.query(
       `INSERT INTO palabras (palabra, significado, ejemplo, audio_url, region_id, provincia_id, categoria) 
        VALUES ($1, $2, $3, $4, $5, $6, $7) 
@@ -60,9 +73,10 @@ exports.createWord = async (req, res) => {
       [palabra, significado, ejemplo, audio_url, region_id, provincia_id || 1, categoria || 'General']
     );
 
+    console.log(' Palabra creada exitosamente');
     res.status(201).json(result.rows[0]);
   } catch (err) {
-    console.error(err.message);
+    console.error(' Error creando palabra:', err.message);
     res.status(500).json({ message: 'Error en el servidor' });
   }
 };
@@ -72,18 +86,23 @@ exports.updateWord = async (req, res) => {
   const { palabra, significado, ejemplo, audio_url, region_id, provincia_id } = req.body;
 
   try {
+    console.log(' Actualizando palabra ID:', id);
+    console.log(' Usuario que actualiza:', req.user);
+    
     const result = await db.query(
       'UPDATE palabras SET palabra=$1, significado=$2, ejemplo=$3, audio_url=$4, region_id=$5, provincia_id=$6 WHERE id=$7 RETURNING *',
       [palabra, significado, ejemplo, audio_url, region_id, provincia_id, id]
     );
 
     if (result.rowCount === 0) {
+      console.log(' Palabra no encontrada');
       return res.status(404).json({ message: 'Palabra no encontrada' });
     }
 
+    console.log(' Palabra actualizada exitosamente');
     res.status(200).json(result.rows[0]);
   } catch (err) {
-    console.error(err.message);
+    console.error(' Error actualizando palabra:', err.message);
     res.status(500).json({ message: 'Error en el servidor' });
   }
 };
