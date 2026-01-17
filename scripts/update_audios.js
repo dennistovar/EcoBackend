@@ -26,8 +26,8 @@ console.log("\n ACTUALIZANDO AUDIOS EXISTENTES (Sin Duplicados)");
 // CONFIGURACIÓN: Usamos las carpetas _normalized que creamos antes
 const REGIONES = [
     //{ carpeta: 'audios_costa_normalized', folderCloud: 'ecolexico/costa' },
-    //{ carpeta: 'audios_sierra_normalized', folderCloud: 'ecolexico/sierra' },
-    { carpeta: 'audios_oriente_normalized', folderCloud: 'ecolexico/oriente' }
+    { carpeta: 'audios_sierra_normalized', folderCloud: 'ecolexico/sierra' },
+    //{ carpeta: 'audios_oriente_normalized', folderCloud: 'ecolexico/oriente' }
 ];
 
 const actualizarRegion = async (config) => {

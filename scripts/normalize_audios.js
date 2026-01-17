@@ -8,7 +8,7 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 console.log("🎚️  INICIANDO NORMALIZACIÓN DE AUDIOS...");
 
 // TUS CARPETAS ACTUALES
-const carpetas = ['audios_oriente']; 
+const carpetas = ['audios_sierra']; 
 
 const procesarCarpeta = async (nombreCarpeta) => {
     const inputDir = path.join(__dirname, nombreCarpeta);
